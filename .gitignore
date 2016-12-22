@@ -1,0 +1,7 @@
+example/
+.DS_Store
+/.bundle
+*.orig
+*.swp
+.powrc
+*.local
