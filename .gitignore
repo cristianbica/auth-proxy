@@ -5,3 +5,4 @@ example/
 *.swp
 .powrc
 *.local
+pkg/
