@@ -7,7 +7,7 @@ class AuthProxy::App < Sinatra::Base
       require "better_errors"
       use BetterErrors::Middleware
       BetterErrors.application_root = __dir__
-    rescue
+    rescue LoadError
     end
 
     set :show_exceptions, :after_handler
