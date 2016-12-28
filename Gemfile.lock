@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    auth-proxy (1.0.1)
+    auth-proxy (1.0.2)
       json
       sinatra
 
