@@ -36,7 +36,7 @@ module AuthProxy
 
   def self.app
     Sinatra.new(AuthProxy::App) do
-      use Rack::Session::Cookie, key: "rack.session",
+      use Rack::Session::Cookie, key: "auth-proxy.session",
                                  domain: "." + AuthProxy.config.cookie_domain,
                                  path: "/",
                                  expire_after: 2592000,
